@@ -70,6 +70,7 @@ h4 {
 .banner img {
   width: 160px;
   border-radius: 50%;
+  border: 2px solid #7A9E9F;
 }
 .list-inline {
   position: fixed;
