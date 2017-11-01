@@ -8,9 +8,6 @@ body{
 h3 {
   font-size: 20px;
   font-family: Helvetica;
-  border-color: #4F6367;
-  border-style: solid;
-  border-width: 1px;
   opacity: 0.8;
   padding: 5px;
   width: max-content;
@@ -26,10 +23,15 @@ h4 {
 }
 .line-separator {
   height: 1px;
-  background: #717171;
   opacity: 0.4;
   border-bottom: 0.2px solid #313030;
   margin: 10px 10px;
+}
+.special {
+  width: 180px;
+  margin: 0 auto;
+  padding-top: 10px;
+  opacity: 0.2;
 }
 .banner {
   width: 500px;
@@ -70,9 +72,20 @@ h4 {
 .banner img {
   width: 160px;
   border-radius: 50%;
-  border: 2px solid #7A9E9F;
+  border: 14px solid #EEEEEE;
+}
+.banner img:hover {
+  border-color: #B8D8D8;
 }
 .list-inline {
+  padding-left: 0;
+  margin: 2px auto;
+}
+.list-inline li {
+  display: inline-block;
+  padding: 15px;
+}
+#footer {
   position: fixed;
   left: 0px;
   bottom: 0px;
@@ -82,12 +95,12 @@ h4 {
   text-align: center;
   margin: 0 auto;
 }
-.list-inline li {
+#footer li {
   display: inline-block;
   padding: 15px;
   text-align: center;
 }
-.list-inline p {
+#footer p {
   font-size: 12px;
 }
 .fa {
